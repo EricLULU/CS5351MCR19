@@ -1,3 +1,4 @@
+
 bool isWin(char game[3][3]){
 bool win = false;
 if (game[0][0] == game[0][1] && game[0][1] == game[0][2] && (game[0][0]
@@ -35,6 +36,7 @@ if (turn == false)
 cout << "Player 1: ";
 else
 cout << "Player 2: ";
+##the notion is wrong
 cout << "Which cell to mark? i:[1..3], j:[1..3]: ";
 cin >> i >> j;
 if (turn == false)
